@@ -1,4 +1,4 @@
-# Messaging Platform `In Development`
+# Messaging Platform (`In Development`)
 Side project developed in MEN Stack 
 
 ## Installation/ Building
@@ -22,18 +22,26 @@ npm install
 - `dotenv`
 - `figlet`
 - `nodemon`
+
 2.) Building and Running
+___
 > Option 1: Manually
+___
 ```bash
 npm run build
 ```
+___
 ```bash
 npm start
 ```
+___
 >> Option 2: Automatically & Auto Refresh (Uses Nodemon)
+___
 ```bash
 npm run dev:start
 ```
+## Server is running at http://localhost:8080 by default
+___
 
-## Support
+## Support 💖
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F31TZ6U)
