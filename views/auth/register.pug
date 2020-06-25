@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+    div.root
+        form(method="post")
+            input(type="text", name="username", pattern="[A-Za-Z]")
+            input(type="email" name="email")
+            input(type="password" name="password" pattern=".{8,}")
+            button(type="submit") Register!
